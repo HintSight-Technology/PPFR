@@ -1,4 +1,4 @@
-# N2HE-FacialVerification-Demo
+# N2HE-PPFR-Demo
 
 ## Prerequisites
 - [OpenSSL](https://www.openssl.org/)  3.2.1 or later
@@ -17,7 +17,7 @@ make
 ```
 ./init       // generate keys
 ./enc        // encrypt the features
-./enc_server // encrypt the model
+./enc_server // encrypt the pre-stored features
 ./eval       // homomorphically inference the encrypted model, using the encrypted features
 ./dec        // decrypt the result
 ```
